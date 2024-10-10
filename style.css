@@ -1,0 +1,80 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: #695CFE;
+}
+
+.icon{
+    font-size: 80px;
+    cursor: pointer;
+    margin-left: 55px;
+}
+.uil-qrcode-scan{
+    color: aliceblue;
+}
+.uil-file-import{
+    color: #1c15e5;
+}
+.uil-file-export{
+    color: #126433;
+}
+.uil-folder-upload{
+    color: #9c1d1d;
+}
+.uil-question{
+    color: #e9da13;
+}
+.contagem-iniciar{
+    padding: 10px 10px 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.icon:hover{
+    opacity: 0.5;
+}
+p:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.importar-contagem{
+    padding: 10px 10px 10px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.exportar-contagem{
+    padding: 10px 10px 10px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.exportar-inventario{
+    padding: 10px 10px 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.passo-a-passo{
+    padding: 10px 10px 10px;
+    margin-left: -1050px;
+    margin-top: 550px;
+}
+.passo-a-passo p{
+    margin-left: 40px;
+    margin-top: -25px;
+}
+.excluir-contagem{
+    padding: 10px 10px 10px;
+    margin-top: 540px;
+    margin-left: 1100px;
+}
+.excluir-contagem p{
+    margin-top: -10px;
+    margin-left: 25px;
+}
